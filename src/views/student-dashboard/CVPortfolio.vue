@@ -33,9 +33,6 @@
                   drag
                   action="https://jsonplaceholder.typicode.com/posts/"
                   :on-preview="handlePreview"
-                  :on-remove="handleRemove"
-                  :file-list="fileList"
-                  multiple
                 >
                   <i class="el-icon-upload" />
                   <div class="el-upload__text">
@@ -44,10 +41,10 @@
                   </div>
                   <div
                     slot="tip"
-                    class="el-upload__tip"
                   >Your CV should consists of Personal details, Professional Summary, Education, Working Experience, Skills/Interests</div>
                 </el-upload>
               </el-form-item>
+              class="el-upload__tip"
               <el-form-item label="LinkedIn Profile">
                 <el-input v-model="form.linkedIn" placeholder="http://" />
               </el-form-item>
