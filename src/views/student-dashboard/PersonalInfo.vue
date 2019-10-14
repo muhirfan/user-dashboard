@@ -184,7 +184,7 @@
                   </el-form-item>
                 </el-col>
               </el-row>
-              <el-form-item label="expertise">
+              <el-form-item label="your current profile is a ...">
                 <el-radio-group v-model="form.expertise">
                   <el-radio label="Tech (IT,Developer)" />
                   <el-radio label="Design" />
